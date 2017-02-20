@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>JavaEECinema</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+	<!-- Navigation menu -->
+    <nav th:replace="~{common :: menu('list')}"></nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>Films</h3>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Title</th>
+							<th>Genre</th>
+							<th>Release date</th>
+							<th>Director</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="film : ${films}">
+							<td th:text="${film.id}"></td>
+							<td th:text="${film.title}"></td>
+							<td th:text="${film.genre.name}"></td>
+							<td th:text="${#temporals.format(film.releaseDate, 'd MMMM yyyy')}"></td>
+							<td th:text="${film.director}"></td>
+							<td><a th:href="'film?id='+${film.id}" th:title="'Details for ' + ${film.title}"><span class="glyphicon glyphicon-search"></span></a></td>
+						</tr>						
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-4" th:insert="~{common :: randomFilm}"></div>
+    	</div>
+	</div>
+  </body>
+</html>

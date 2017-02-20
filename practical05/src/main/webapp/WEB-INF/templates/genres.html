@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>JavaEECinema</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation menu -->
+	<nav th:replace="~{common :: menu('genres')}"></nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>Genres</h3>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="genre : ${genres}">
+							<td th:text="${genre.id}"></td>
+							<td th:text="${genre.name}"></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<h3>Add a new genre</h3>
+				<form method="post" class="form-inline">
+					<div class="form-group">
+						<label class="sr-only" for="genreName">Name</label>
+						<input class="form-control" id="genreName" type="text" name="genreName" placeholder="Genre Name" />
+					</div>
+					<input class="btn btn-primary" type="submit" value="Add genre">
+				</form>
+			</div>
+			<div class="col-md-4" th:insert="~{common :: randomFilm}"></div>
+		</div>
+	</div>
+</body>
+</html>

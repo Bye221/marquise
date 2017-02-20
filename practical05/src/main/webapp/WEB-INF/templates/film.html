@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>JavaEECinema</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+	<!-- Navigation menu -->
+    <nav th:replace="~{common :: menu('list')}"></nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>Detail of the film</h3>
+
+				<div class="row">
+					<label class="col-sm-2 control-label">Title</label>
+					<div class="col-sm-10">
+						<p th:text="${film.title}"></p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Release date</label>
+					<div class="col-sm-3">
+						<p th:text="${#temporals.format(film.releaseDate, 'd MMMM yyyy')}">12 october 2016</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Genre</label>
+					<div class="col-sm-10">
+						<p th:text="${film.genre.name}">Drama</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Duration</label>
+					<div class="col-sm-3">
+						<div class="input-group">
+						  <p>[[${film.duration}]] min</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Director</label>
+					<div class="col-sm-10">
+						<p th:text="${film.director}">Matt Ross</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Summary</label>
+					<div class="col-sm-10">
+						<p th:text="${film.summary}">In the forests of the Pacific Northwest, a father devoted to raising his six kids with a rigorous physical and intellectual education is forced to leave his paradise and enter the world, challenging his idea of what it means to be a parent.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-2 col-sm-10">
+						<a class="btn btn-default" href="list.html">Back to the list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" th:insert="~{common :: randomFilm}"></div>
+		</div>
+	</div>
+  </body>
+</html>
