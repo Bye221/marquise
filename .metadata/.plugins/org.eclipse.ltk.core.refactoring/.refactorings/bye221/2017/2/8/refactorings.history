@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;marquise.filter&apos; to &apos;marquise.Filters&apos;&#x0A;- Original project: &apos;bye221&apos;&#x0A;- Original element: &apos;bye221/src/main/java/marquise.filter&apos;&#x0A;- Renamed element: &apos;bye221/src/main/java/marquise.Filters&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;marquise.filter&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;marquise.filter" name="marquise.Filters" qualified="false" references="true" stamp="1487680478465" textual="false" version="1.0"/>
+</session>
