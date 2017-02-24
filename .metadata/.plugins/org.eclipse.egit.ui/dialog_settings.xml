@@ -26,15 +26,11 @@
 	</section>
 	<section name="GitCommitMessageComponent">
 		<list key="/Users/louiscauvray/Documents/workspace-marquise/.git">
-			<item value="false"/>
-			<item value="bye221 &lt;louis-come.auvray@hei.fr&gt;"/>
-			<item value="hello"/>
-			<item value="bye221 &lt;louis-come.auvray@hei.fr&gt;"/>
-			<item value="9fa778222c9e7fb8ebbbc61042b2122cf1392536"/>
+			<item value="empty"/>
 		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item value="716,266" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="539,445" key="STAGING_SASH_FORM_WEIGHT"/>
 		<item value="true" key="sortItemState"/>
 		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
 	</section>
