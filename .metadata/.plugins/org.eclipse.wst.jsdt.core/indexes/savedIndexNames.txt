@@ -5,7 +5,10 @@ INDEX VERSION 1.3+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.pl
 2195642464.index
 871675249.index
 49982787.index
+<<<<<<< HEAD
 >>>>>>> louis-come
 2098975153.index
+=======
+>>>>>>> louis-come
 4045142610.index
 3054964479.index
