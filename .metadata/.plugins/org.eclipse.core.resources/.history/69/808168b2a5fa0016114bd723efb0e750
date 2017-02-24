@@ -1,0 +1,9 @@
+package marquise.daos;
+
+public class UtilisateurDao {
+	
+	public List<Utilisateur> listeUtilisateurs(){
+		
+	}
+
+}

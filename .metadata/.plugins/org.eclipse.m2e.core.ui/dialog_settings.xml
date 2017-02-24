@@ -40,6 +40,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/louiscauvray/Documents/workspace-marquise/practical06"/>
+			<item value="/Users/louiscauvray/Documents/workspace-marquise/marquise/src/main/java/marquise/daos"/>
 			<item value="/Users/louiscauvray/Documents/workspace-marquise/practical05"/>
 		</list>
 		<list key="projectNameTemplate">
