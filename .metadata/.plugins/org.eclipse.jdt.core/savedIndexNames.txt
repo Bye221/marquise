@@ -1,13 +1,12 @@
 INDEX VERSION 1.129+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.plugins/org.eclipse.jdt.core
-<<<<<<< HEAD
-2195642464.index
-=======
 937763053.index
-1123291838.index
 449899765.index
+1123291838.index
+=======
 1390355476.index
 3486997469.index
 1833648217.index
+>>>>>>> master
 2063431584.index
 1486797235.index
 3059193231.index
@@ -21,6 +20,7 @@ INDEX VERSION 1.129+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.
 156905802.index
 1819685514.index
 646634288.index
+<<<<<<< HEAD
 723330250.index
 3302703152.index
 1456874680.index
@@ -32,9 +32,9 @@ INDEX VERSION 1.129+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.
 590046460.index
 1384487945.index
 3992365684.index
+2195642464.index
 2545238116.index
 3051944652.index
 4232048337.index
 2849620448.index
 782179996.index
->>>>>>> master
