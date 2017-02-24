@@ -3,5 +3,4 @@ INDEX VERSION 1.3+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.pl
 871675249.index
 49982787.index
 4045142610.index
-2860400842.index
 3054964479.index
