@@ -7,3 +7,5 @@
 1487948874761	Rename package 'marquise.dao.impl'
 1487948904862	Rename package 'marquise.daos.impl'
 1487948916957	Delete element
+1488062937742	Delete element
+1488063211369	Encapsulate field 'dataSource'

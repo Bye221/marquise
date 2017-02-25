@@ -3223,3 +3223,32 @@ java.io.FileNotFoundException: /Users/louiscauvray/.m2/repository/org/slf4j/slf4
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-02-25 23:20:43.022 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/louiscauvray/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/louiscauvray/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-25 23:22:57.941
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-02-25 23:32:24.438 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/louiscauvray/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/louiscauvray/.eclipse_keyring
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-25 23:49:33.241
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-25 23:49:33.278
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-25 23:50:49.929
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-25 23:50:49.939
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

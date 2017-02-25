@@ -1,13 +1,12 @@
 package marquise.daos;
 
 import java.util.List;
+import marquise.projos.Utilisateur;
 
-public class UtilisateurDao {
+public interface UtilisateurDao {
 	
 	
 	
-	public List<Utilisateur> listeUtilisateurs(){
-		
-	}
+	public List<Utilisateur> listeUtilisateurs();
 
 }
