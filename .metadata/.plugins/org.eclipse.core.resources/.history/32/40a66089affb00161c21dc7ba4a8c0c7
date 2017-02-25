@@ -1,0 +1,5 @@
+package marquise.daos.impl;
+
+public class UtilisateurImpl {
+
+}
