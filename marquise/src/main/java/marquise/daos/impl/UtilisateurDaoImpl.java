@@ -13,9 +13,9 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
 	public List<Utilisateur> listeUtilisateurs() {
 		
 		String query = "select * from marquiseBase.utilisateurs;";
-		
-		try {
-			Connection connection = DataSourceProvider.getDataSource().getConnection();
+	
+		try (
+			Connection connection = DataSourceProvider.getDataSource().getConnection()){
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
