@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UtilisateurDaoTestCase" project="marquise" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="marquise.daos.UtilisateurDaoTestCase" time="0.347">
+    <testcase name="shouldlisteUtilisateurs" classname="marquise.daos.UtilisateurDaoTestCase" time="0.347"/>
+  </testsuite>
+</testrun>
