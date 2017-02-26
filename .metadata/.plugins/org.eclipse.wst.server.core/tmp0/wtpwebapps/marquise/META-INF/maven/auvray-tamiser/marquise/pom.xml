@@ -34,7 +34,10 @@
 			<version>1.7.21</version>
 		</dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> louis-come
 		
 		<dependency>
   			<groupId>org.assertj</groupId>
@@ -43,6 +46,9 @@
   			<version>3.6.2</version>
   			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
+>>>>>>> louis-come
+=======
 >>>>>>> louis-come
 
 	</dependencies>

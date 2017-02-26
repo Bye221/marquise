@@ -11,6 +11,11 @@
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="targetStateView">
+	</section>
+>>>>>>> louis-come
 	<section name="pluginsView">
 	</section>
 </section>
