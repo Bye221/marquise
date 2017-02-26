@@ -4,7 +4,7 @@ import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 public class DataSourceProvider {
 	
-	private static MysqlDataSource dataSource;
+	protected static MysqlDataSource dataSource;
 
 	public static MysqlDataSource getDataSource() {
 		

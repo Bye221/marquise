@@ -23,7 +23,7 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
 			try(Statement statement = connection.createStatement()){
 				try(ResultSet resultSet = statement.executeQuery(query)){
 					while(resultSet.next()){
-					Utilisateur utilisateur = new Utilisateur(resultSet.getInt("id"), resultSet.getString("nom"), resultSet.getString("prenom"));
+					Utilisateur utilisateur = new Utilisateur(resultSet.getInt("idUtilisateurs"), resultSet.getString("nom"), resultSet.getString("prenom"));
 					utilisateurs.add(utilisateur);
 					}
 				}
