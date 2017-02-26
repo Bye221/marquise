@@ -47,7 +47,7 @@ public class UtilisateurDaoTestCase {
 		//WHEN
 		List<Utilisateur> utilisateurs = utilisateurDao.listeUtilisateurs();
 		//THEN
-		assertThat(utilisateurs).hasSize(3);
+		AssertThat(utilisateurs).hasSize(3);
 		Assertions.assertThat(utilisateurs).extracting("idUtilisateurs", "nom", "prenom").containsOnly( Assertions.tuple('1', "auvray", "louis-come"),
 				Assertions.tuple('2', "tamisier", "Axel"),
 				Assertions.tuple('3', "TRUMP", "Donald")
@@ -58,11 +58,8 @@ public class UtilisateurDaoTestCase {
 	}
 
 
-	private AbstractIterableAssert<ListAssert<Utilisateur>, List<? extends Utilisateur>, Utilisateur, ObjectAssert<Utilisateur>> assertThat(
-			List<Utilisateur> utilisateurs) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
+	
 
 
 
