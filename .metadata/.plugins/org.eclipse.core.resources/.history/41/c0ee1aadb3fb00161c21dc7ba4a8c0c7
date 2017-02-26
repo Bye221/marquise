@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.List;
 
 import marquise.daos.UtilisateurDao;
@@ -16,16 +15,12 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
 	public List<Utilisateur> listeUtilisateurs() {
 		
 		String query = "select * from marquiseBase.utilisateurs;";
-		List<Utilisateur> utilisateurs = new ArrayList<>();
 	
 		try (
 			Connection connection = DataSourceProvider.getDataSource().getConnection()){
 			try(Statement statement = connection.createStatement()){
 				try(ResultSet resultSet = statement.executeQuery(query)){
-					while(resultSet.next()){
-					Utilisateur utilisateur = new Utilisateur(resultSet.getInt("id"), resultSet.getString("nom"), resultSet.getString("prenom"));
-					utilisateurs.add(utilisateur);
-					}
+					
 				}
 			}
 		} catch (SQLException e) {
