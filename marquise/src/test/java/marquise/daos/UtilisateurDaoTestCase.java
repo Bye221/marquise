@@ -1,13 +1,13 @@
 
 package marquise.daos;
 
-
-
-
-
 import java.sql.Connection;
 import java.sql.Statement;
 import java.util.List;
+
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.tuple;
 
 import org.assertj.core.api.AbstractIterableAssert;
 import org.assertj.core.api.Assertions;
@@ -47,11 +47,8 @@ public class UtilisateurDaoTestCase {
 		//WHEN
 		List<Utilisateur> utilisateurs = utilisateurDao.listeUtilisateurs();
 		//THEN
-		AssertThat(utilisateurs).hasSize(3);
-		Assertions.assertThat(utilisateurs).extracting("idUtilisateurs", "nom", "prenom").containsOnly( Assertions.tuple('1', "auvray", "louis-come"),
-				Assertions.tuple('2', "tamisier", "Axel"),
-				Assertions.tuple('3', "TRUMP", "Donald")
-				);
+		//assertThat(utilisateurs).hasSize(3);
+		assertThat(utilisateurs).extracting("idUtilisateurs", "nom", "prenom").containsOnly(tuple('1', "auvray", "louis-come"),tuple('2', "tamisier", "Axel"),tuple('3', "TRUMP", "Donald"));
 		
 
 
