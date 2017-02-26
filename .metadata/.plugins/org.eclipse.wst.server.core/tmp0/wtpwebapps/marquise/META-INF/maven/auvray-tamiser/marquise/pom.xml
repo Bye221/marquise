@@ -33,6 +33,17 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.21</version>
 		</dependency>
+<<<<<<< HEAD
+=======
+		
+		<dependency>
+  			<groupId>org.assertj</groupId>
+  			<artifactId>assertj-core</artifactId>
+  			<!-- use 2.6.0 for Java 7 projects -->
+  			<version>3.6.2</version>
+  			<scope>test</scope>
+		</dependency>
+>>>>>>> louis-come
 
 	</dependencies>
 </project>

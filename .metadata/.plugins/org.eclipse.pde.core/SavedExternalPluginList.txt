@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1487600262465
+# List of external plug-in models previously loaded. Timestamp: 1488062941752
 file:/Users/louiscauvray/.p2/pool/plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar
 file:/Users/louiscauvray/.p2/pool/plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar
 file:/Users/louiscauvray/.p2/pool/plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar
@@ -957,9 +957,13 @@ file:/Users/louiscauvray/.p2/pool/plugins/org.sat4j.pb_2.3.5.v201404071733.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.slf4j.api_1.7.2.v20121108-1250.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.sonatype.m2e.mavenarchiver_0.17.2.201606141937-signed-20160830073346.jar
+file:/Users/louiscauvray/.p2/pool/plugins/org.thymeleaf.extras.eclipse.contentassist_2.1.2.201603041014.jar
+file:/Users/louiscauvray/.p2/pool/plugins/org.thymeleaf.extras.eclipse.core_2.1.2.201603041014.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.tukaani.xz_1.3.0.v201308270617.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.uddi4j_2.0.5.v200805270300.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.w3c.css.sac_1.3.1.v200903091627.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar
 file:/Users/louiscauvray/.p2/pool/plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar
+file:/Users/louiscauvray/.p2/pool/plugins/org.thymeleaf.extras.eclipse.contentassist.source_2.1.2.201603041014.jar
+file:/Users/louiscauvray/.p2/pool/plugins/org.thymeleaf.extras.eclipse.core.source_2.1.2.201603041014.jar

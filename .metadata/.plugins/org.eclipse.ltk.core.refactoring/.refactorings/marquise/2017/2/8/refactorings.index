@@ -2,3 +2,14 @@
 1487938692400	Rename compilation unit 'LicenciesDao.java'
 1487945807274	Delete element
 1487945817661	Delete element
+1487947913303	Rename package 'marquise.dao.impl'
+1487948843470	Rename package 'marquise.daos.impl'
+1487948874761	Rename package 'marquise.dao.impl'
+1487948904862	Rename package 'marquise.daos.impl'
+1487948916957	Delete element
+1488062937742	Delete element
+1488063211369	Encapsulate field 'dataSource'
+1488064202417	Rename type 'UtilisateurImpl'
+1488066371704	Delete element
+1488066951946	Rename field 'utlisateursList'
+1488104008159	Rename local variable 'utitlisateurs'
