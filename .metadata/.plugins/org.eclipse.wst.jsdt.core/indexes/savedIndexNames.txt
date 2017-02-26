@@ -2,7 +2,6 @@ INDEX VERSION 1.3+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.pl
 <<<<<<< HEAD
 =======
 2886262910.index
-871675249.index
 49982787.index
 <<<<<<< HEAD
 <<<<<<< HEAD

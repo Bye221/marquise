@@ -1,7 +1,0 @@
-package marquise.dao;
-
-public interface LicenciesDao {
-	
-	public List<Licencies> listLicencies
-
-}

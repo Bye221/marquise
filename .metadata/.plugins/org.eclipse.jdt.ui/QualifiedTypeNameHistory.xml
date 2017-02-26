@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="marquise.dao.CertificatDao"/>
 <fullyQualifiedTypeName name="marquise.dao.LicencieDao"/>
@@ -27,3 +28,6 @@
 <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
 >>>>>>> louis-come
 </qualifiedTypeNameHistroy>
+=======
+<qualifiedTypeNameHistroy/>
+>>>>>>> louis-come

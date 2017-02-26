@@ -1,5 +1,0 @@
-package marquise.daos.mock.impl;
-
-public class UtilisateurDaoMockImpl {
-
-}
