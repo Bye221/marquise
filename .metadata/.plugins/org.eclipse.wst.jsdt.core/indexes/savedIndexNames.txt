@@ -1,25 +1,9 @@
 INDEX VERSION 1.3+/Users/louiscauvray/Documents/workspace-marquise/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-<<<<<<< HEAD
-=======
 2886262910.index
+=======
 871675249.index
+<<<<<<< HEAD
 49982787.index
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> louis-come
-2098975153.index
-=======
->>>>>>> louis-come
-=======
-2098975153.index
->>>>>>> louis-come
-=======
-2098975153.index
->>>>>>> louis-come
-=======
->>>>>>> louis-come
 4045142610.index
-2098975153.index
+>>>>>>> louis-come
 3054964479.index
