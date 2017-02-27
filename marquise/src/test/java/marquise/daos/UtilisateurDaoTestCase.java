@@ -70,6 +70,10 @@ public class UtilisateurDaoTestCase {
 >>>>>>> louis-come
 =======
 		//assertThat(utilisateurs).extracting("idUtilisateurs", "nom", "prenom").containsOnly(tuple('1', "auvray", "louis-come"),tuple('2', "tamisier", "Axel"),tuple('3', "TRUMP", "Donald"));
+<<<<<<< HEAD
+>>>>>>> louis-come
+=======
+		// a derterminer 
 >>>>>>> louis-come
 		
 
