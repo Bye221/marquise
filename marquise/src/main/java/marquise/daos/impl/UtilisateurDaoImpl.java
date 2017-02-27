@@ -35,5 +35,17 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
 		return null;
 	}
 
+	@Override
+	public Utilisateur getUtilisateur(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Utilisateur addUtilisateur(Integer id, String nom, String Prenom) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	
 }
