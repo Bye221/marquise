@@ -10,7 +10,7 @@
     <title> Bienvenue sur le site du club d'athletisme de Marquise </title>
     
     <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../css/page/indexAdmin.css" rel="stylesheet">
+    <link href="../../css/page/index.css" rel="stylesheet">
     
 </head>
 
@@ -66,27 +66,31 @@
 
 <div class="container-fluid">
     <div class="row section1">
-        <div class="col-md-6">
+        <div class="col-md-8">
             <div class="block-test1">
-                <h2 class="titre-section-admin">Rechercher la liste de tout les inscrits au club: </h2>
+                
             </div>
             <div class="block-test2">
-               <h2 class="titre-section-admin">Rechercher un licencié du club par son nom de famille </h2>
                 
             </div>
             
         </div>
-        <div class="col-md-6">
-            <div class="block-test1">
-               <h2 class="titre-section-admin">Ajouter un membre du club</h2>
+        <div class="col-md-3 col-md-offset-1">
+          
+          <!-- Formulaire d'inscription à la newsletter -->
+          
+          
+           <h1> Restez informés !</h1>
+            <form class="inscription">
+               <p> Inscrivez vous à la newsletter</p>
+               <input class="email-news" id="email" placeholder="Email" type="email"> 
+               <p> J'accepte de recevoir regulierement des informations de la part du club</p>
+               <input id="ok" type="checkbox">
+               <button type="submit">Valider</button>
+               
+               
                 
-            </div>
-            <div class="block-test2">
-               <h2 class="titre-section-admin">Rechercher la liste de tout les inscrits au club: </h2>
-                
-            </div>
-
-            
+            </form>
         </div>
     </div>
 </div>

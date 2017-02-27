@@ -9,8 +9,8 @@
     
     <title> Bienvenue sur le site du club d'athletisme de Marquise </title>
     
-    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../css/page/indexAdmin.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/page/resultat.css" rel="stylesheet">
     
 </head>
 
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="active navbar-brand" href="index.html">Acceuil</a>
+      <a class="navbar-brand" href="index.html">Acceuil</a>
     </div>
     <div class="navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -39,7 +39,7 @@
         
         <li><a href="categorie.html">Categories</a></li>
         
-        <li><a href="resultats.html">Résultats</a></li>
+        <li class="active"><a href="resultats.html">Résultats</a></li>
         
         <li><a href="inscription.html">Inscriptions</a></li>
         
@@ -66,27 +66,37 @@
 
 <div class="container-fluid">
     <div class="row section1">
-        <div class="col-md-6">
+        <div class="col-md-8">
+            <div class="resultats">
+                <!-- L'integration de l'iframe est a retravailler, afin de le rendre plus responssive et adapté à toute sorte d'écrans. De plus il serait interessant de pouvoir extraire les données directement sur le site de la federatio. !-->
+                <h2 class="titre"> Vous retrouvez ici tous les résultats des dernieres competitons</h2>
+                <div class="resultatWrapper">
+                <iframe src="http://bases.athle.com/asp.net/liste.aspx?frmbase=cclubs&frmmode=2&frmespace=&frmtypeclub=M&frmsaison=2016&frmnclub=062087&f" ></iframe></div>
+            </div>
             <div class="block-test1">
-                <h2 class="titre-section-admin">Rechercher la liste de tout les inscrits au club: </h2>
+                
             </div>
             <div class="block-test2">
-               <h2 class="titre-section-admin">Rechercher un licencié du club par son nom de famille </h2>
                 
             </div>
             
         </div>
-        <div class="col-md-6">
-            <div class="block-test1">
-               <h2 class="titre-section-admin">Ajouter un membre du club</h2>
+        <div class="col-md-3 col-md-offset-1">
+          
+          <!-- Formulaire d'inscription à la newsletter -->
+          
+          
+           <h1> Restez informés !</h1>
+            <form class="inscription">
+               <p> Inscrivez vous à la newsletter</p>
+               <input class="email-news" id="email" placeholder="Email" type="email"> 
+               <p> J'accepte de recevoir regulierement des informations de la part du club</p>
+               <input id="ok" type="checkbox">
+               <button type="submit">Valider</button>
+               
+               
                 
-            </div>
-            <div class="block-test2">
-               <h2 class="titre-section-admin">Rechercher la liste de tout les inscrits au club: </h2>
-                
-            </div>
-
-            
+            </form>
         </div>
     </div>
 </div>
@@ -103,10 +113,10 @@
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="../../bootstrap/js/photo-gallery.js"></script>
+        <script src="../bootstrap/js/photo-gallery.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../../bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
