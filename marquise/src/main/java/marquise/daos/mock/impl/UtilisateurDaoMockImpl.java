@@ -7,7 +7,7 @@ import java.util.TreeMap;
 import marquise.daos.UtilisateurDao;
 import marquise.projos.Utilisateur;
 
-public class UtilisateurDaoMockImpl implements UtilisateurDao {
+public class implements UtilisateurDao {
 	
 	private TreeMap<Integer, Utilisateur> utilisateursList;
 	
@@ -23,6 +23,18 @@ public class UtilisateurDaoMockImpl implements UtilisateurDao {
 	public List<Utilisateur> listeUtilisateurs() {
 		
 		return new ArrayList<Utilisateur>(utilisateursList.values());
+	}
+
+	@Override
+	public Utilisateur getUtilisateur(String nom) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Utilisateur addUtilisateur(Integer id, String nom, String Prenom) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	
