@@ -1,6 +1,7 @@
 package marquise.daos.impl;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -32,6 +33,42 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return null;
+	}
+
+	
+
+	@Override
+	public Utilisateur getUtilisateur(String nom) {
+		//String query = "select * from utilisateurs where nom like '?' ";
+		
+		try(Connection connection = DataSourceProvider.getDataSource().getConnection()){
+			String query = "select * from utilisateurs where nom like '?' ";
+			try(PreparedStatement statement = connection.prepareStatement(query)){
+				statement.setString(2, nom);
+				try(ResultSet resultSet = statement.executeQuery()){
+					while(resultSet.next()){
+						return new Utilisateur(resultSet.getInt("idUtilisateurs"), resultSet.getString("nom"), resultSet.getString("prenom"));
+					}
+				}
+			}
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		return null;
+	}
+
+
+
+	@Override
+	public Utilisateur addUtilisateur(Integer id, String nom, String Prenom) {
+		// TODO Auto-generated method stub
 		return null;
 	}
 

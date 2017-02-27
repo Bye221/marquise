@@ -1,7 +1,16 @@
 package marquise.dao;
 
-public interface certificatDao {
+import java.util.List;
+
+public interface CertificatDao {
 	
-	public
+	
+	public List <Certificat> listCertificats();
+	
+	public Certificat getCertificatDonne(Boolean oui );
+	
+	public Certificat getCertificatPapier( );
+		
+	
 
 }
