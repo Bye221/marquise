@@ -69,7 +69,7 @@ public class UtilisateurDaoTestCase {
 	@Test
 	public void shouldGetUtilisateurs(){
 		//WHEN
-		Utilisateur utilisateur = utilisateurDao.getUtilisateur("auvray").getNom();
+		Utilisateur utilisateur = utilisateurDao.getUtilisateur(3);
 		//Then
 		assertThat(utilisateur).isNotNull();
 		assertThat(utilisateur.getId()).isEqualTo(1);
