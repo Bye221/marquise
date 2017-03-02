@@ -5398,3 +5398,9 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-03-01 23:27:30.610
 !MESSAGE Several ports (8080, 8009) required by Tomcat v8.5 Server at localhost (2) are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-01 23:54:52.000
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-01 23:54:52.015
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
