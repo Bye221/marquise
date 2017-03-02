@@ -22,15 +22,13 @@ public class indexServlet extends HttpServlet {
 		
 		ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
 		templateResolver.setTemplateMode(TemplateMode.HTML);
-		templateResolver.setPrefix("/WEB-INF/templates/");
-		templateResolver.setSuffix(".html");
 		
 		TemplateEngine templateEngine = new TemplateEngine();
 		templateEngine.setTemplateResolver(templateResolver);
 		
 		WebContext context = new WebContext(req, resp, req.getServletContext());
 
-		templateEngine.process("users/index", context, resp.getWriter());
+		templateEngine.process("/WEB-INF/templates/users/index.html", context, resp.getWriter());
 	}
 	
 	
