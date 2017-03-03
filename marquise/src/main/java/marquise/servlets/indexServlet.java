@@ -30,7 +30,7 @@ public class indexServlet extends HttpServlet {
 		
 		WebContext context = new WebContext(req, resp, req.getServletContext());
 
-		templateEngine.process("users/index", context, resp.getWriter());
+		templateEngine.process("/users/index", context, resp.getWriter());
 	}
 	
 	

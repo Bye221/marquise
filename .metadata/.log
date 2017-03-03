@@ -5446,3 +5446,18 @@ Caused by: java.io.IOException: Packing cancelled during objects writing
 
 !ENTRY org.eclipse.jface.text 2 0 2017-03-03 00:10:42.817
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.thymeleaf.extras.eclipse 1 0 2017-03-03 00:18:29.764
+!MESSAGE Scanning for dialect help files on project dependencies
+
+!ENTRY org.thymeleaf.extras.eclipse 1 0 2017-03-03 00:18:29.781
+!MESSAGE Help file found: Standard-Dialect.xml
+
+!ENTRY org.thymeleaf.extras.eclipse 1 0 2017-03-03 00:18:29.853
+!MESSAGE Help file found: Java8Time.xml
+
+!ENTRY org.thymeleaf.extras.eclipse 1 0 2017-03-03 00:18:29.868
+!MESSAGE Scanning complete.  Execution time: 94ms
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-03-03 00:26:16.380
+!MESSAGE Several ports (8080, 8009) required by Tomcat v8.5 Server at localhost (2) are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).

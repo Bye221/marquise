@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>fragment</title>
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/page/index.css" rel="stylesheet">
-	</head>
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<nav th:fragment="entete">
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -41,19 +31,3 @@
       </ul>
     </div>
   </div>
-</nav>
-<div class="container-fluid">
-    <div class="row head">
-        <div class="col-sm-12 col-md-12">
-           
-            <h1>Entente Maritime Athlétique 62</h1>
-        </div>
-        
-        
-        
-    </div>
-</div>
-
-
-	</body>
-</html>
