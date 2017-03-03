@@ -5,18 +5,27 @@ body {
 
 #section1 {
     padding-top: 50px;
-    height: 800px;
-    color: #fff;
+    height:auto;
+    color: rgb(25, 38, 33);
+    text-align: center;
     background-image:url("../../img/piste.jpeg");
-    opacity: 0.8;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+   
     
 }
 
 #section2 {
     padding-top: 50px;
-    height: 800px;
+    height: auto;
     color: #fff;
-    background-color: #673ab7;
+    background-image: url(../../img/city_woman.jpg);
+    background-image: url(../img/city_woman.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    
 }
 
 #section3 {
@@ -28,14 +37,17 @@ body {
 
 #section4 {
     padding-top: 50px;
-    height: 500px;
+    height: auto;
     color: #fff;
-    background-color: #00bcd4;
+    background-image: url(../../img/competition_start.jpg);
+    background-size: cover;
 }
 
 #section5 {
     padding-top: 50px;
-    height: 500px;
+    padding-bottom: 50px;
+    
     color: #fff;
     background-color: #009688;
+    text-align: center;
 }

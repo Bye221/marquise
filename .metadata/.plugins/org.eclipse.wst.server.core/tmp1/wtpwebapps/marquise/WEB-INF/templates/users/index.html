@@ -17,40 +17,8 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="active navbar-brand" href="index.html">Acceuil</a>
-    </div>
-    <div class="navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="club.html">Club</a></li>
-        
-        <li><a href="staff.html">Staff</a></li>
-        
-        <li><a href="cours.html">Cours et Stages</a></li>
-        
-        <li><a href="calendrier.html">Caledrier</a></li>
-        
-        <li><a href="categorie.html">Categories</a></li>
-        
-        <li><a href="resultats.html">Résultats</a></li>
-        
-        <li><a href="inscription.html">Inscriptions</a></li>
-        
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-inverse" th:insert="~{users/common ::entete}">
+  
 </nav>
 <div class="container-fluid">
     <div class="row head">
@@ -64,9 +32,12 @@
     </div>
 </div>
  
+<!-- Ici se trouve 5 sections personnalisables par le client: il pourra changer les images ou le texte -->
+ 
  <div id="section1" class="container-fluid">
-  <h1>Section 1</h1>
+  <h1>Bienvenue sur le site du Club d'athletisme de Marquise</h1>
   <p>Section 1</p>
+  <p>Texte de bienvenue qui sera choisi par le club sportif</p>
 </div>
 
 <div id="section2" class="container-fluid">
@@ -83,8 +54,22 @@
   <p>Section 4</p>
 </div>
 <div id="section5" class="container-fluid">
-  <h1>Section 5</h1>
-  <p>Section 5</p>
+  
+  <h2>
+      Club du Marquise Athletisme
+  </h2>
+  <h3>
+  Section de L’Entente Maritime 62 (EMA62) – Club de National
+  </h3>
+  
+  <p>Association sportive régie par la Loi du 1er juillet 1901</p>
+  <p>Adresse : Café "Le Beaupré" BP 15 - MARQUISE <br>
+  Contact<br>
+  06 14 67 37 63<br>
+  06 83 12 40 27<br>
+  fred.coach.mahe03@wanadoo.fr<br>
+  </p>
+  
 </div>
   
 
