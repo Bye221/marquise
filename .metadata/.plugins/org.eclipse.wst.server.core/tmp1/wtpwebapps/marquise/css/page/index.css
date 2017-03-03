@@ -8,12 +8,10 @@ body {
     height:auto;
     color: rgb(25, 38, 33);
     text-align: center;
-    background-image:url("../../img/piste.jpeg");
+    background-image:url("../../img/piste1.jpeg");
     background-size: cover;
     background-repeat:no-repeat;
 
-   
-    
 }
 
 #section2 {
@@ -21,7 +19,7 @@ body {
     height: auto;
     color: #fff;
     background-image: url(../../img/city_woman.jpg);
-    background-image: url(../img/city_woman.jpg);
+    
     background-size: cover;
     background-repeat:no-repeat;
     

@@ -2110,3 +2110,15 @@ Caused by: java.io.FileNotFoundException: /Users/louiscauvray/Documents/workspac
 2017-03-03 10:44:39,192 [Worker-385] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-03-03 10:44:39,193 [Worker-385] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-03-03 10:44:39,194 [Worker-385] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-03 10:46:47,911 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-03 10:46:47,914 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-03 10:46:47,916 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-03 10:46:47,916 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-03 10:47:26,272 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-03 10:47:26,272 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-03 10:47:26,274 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-03 10:47:26,274 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-03 10:52:26,823 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-03 10:52:26,824 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-03 10:52:26,829 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-03 10:52:26,829 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

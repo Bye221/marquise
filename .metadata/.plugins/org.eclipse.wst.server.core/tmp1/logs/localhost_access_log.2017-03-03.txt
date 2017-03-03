@@ -53,3 +53,15 @@
 0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:43:07 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
 0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:45:01 +0100] "GET /marquise/home HTTP/1.1" 200 3382
 0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:45:01 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:46:50 +0100] "GET /marquise/home HTTP/1.1" 200 3382
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:46:50 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:47:33 +0100] "GET /marquise/home HTTP/1.1" 200 3382
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:47:33 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
+127.0.0.1 - - [03/Mar/2017:10:47:52 +0100] "GET / HTTP/1.1" 404 999
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:48:50 +0100] "GET /marquise/home HTTP/1.1" 200 3382
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:48:50 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
+127.0.0.1 - - [03/Mar/2017:10:49:42 +0100] "GET / HTTP/1.1" 404 999
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:49:54 +0100] "GET /marquise/home HTTP/1.1" 200 3382
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:49:54 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:50:23 +0100] "GET /marquise/home HTTP/1.1" 200 3382
+0:0:0:0:0:0:0:1 - - [03/Mar/2017:10:50:23 +0100] "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1057
