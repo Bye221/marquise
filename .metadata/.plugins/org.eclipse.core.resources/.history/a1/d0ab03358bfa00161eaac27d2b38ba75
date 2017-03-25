@@ -1,7 +1,0 @@
-package marquise.dao;
-
-public interface CertificatsDao {
-	
-	public List
-
-}
