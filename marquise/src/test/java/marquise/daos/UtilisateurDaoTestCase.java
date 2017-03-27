@@ -48,11 +48,12 @@ public class UtilisateurDaoTestCase {
 		List<Utilisateur> utilisateurs = utilisateurDao.listeUtilisateurs();
 		//THEN
 
-		//assertThat(utilisateurs).hasSize(3);
-		//Assertions.assertThat(utilisateurs).extracting("idUtilisateurs", "nom", "prenom").containsOnly( Assertions.tuple('1', "auvray", "louis-come"),
-			//	Assertions.tuple('2', "tamisier", "Axel"),
-			//	Assertions.tuple('3', "TRUMP", "Donald")
-			//	);
+		//Assertions.assertThat(utilisateurs).hasSize(3);
+			//Assertions.assertThat(utilisateurs).extracting("idUtilisateurs", "nom", "prenom").containsOnly( 
+				//Assertions.tuple('1', "auvray", "louis-come"),
+				//Assertions.tuple('2', "tamisier", "Axel"),
+				//Assertions.tuple('3', "TRUMP", "Donald")
+				//);
 
 		//assertThat(utilisateurs).hasSize(3);
 
@@ -63,11 +64,22 @@ public class UtilisateurDaoTestCase {
 
 
 		// a derterminer 
-
-		
-
-
 	}
+	
+	@Test
+	public void shouldGetUtilisateurs(){
+		//WHEN
+		Utilisateur utilisateur = utilisateurDao.getUtilisateur("auvray");
+		//Then
+		assertThat(utilisateur).isNotNull();
+		assertThat(utilisateur.getId()).isEqualTo(1);
+		assertThat(utilisateur.getNom()).isEqualTo("auvray");
+		assertThat(utilisateur.getPrenom()).isEqualTo("louis-come");
+		
+		
+	}
+	
+	
 
 
 	

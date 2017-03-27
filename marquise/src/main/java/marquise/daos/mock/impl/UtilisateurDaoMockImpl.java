@@ -7,7 +7,7 @@ import java.util.TreeMap;
 import marquise.daos.UtilisateurDao;
 import marquise.projos.Utilisateur;
 
-public class implements UtilisateurDao {
+public class UtilisateurDaoMockImpl implements UtilisateurDao {
 	
 	private TreeMap<Integer, Utilisateur> utilisateursList;
 	
