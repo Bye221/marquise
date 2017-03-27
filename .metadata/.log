@@ -7177,6 +7177,7 @@ java.io.FileNotFoundException: /Users/louiscauvray/Documents/workspace-marquise/
 	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui.workbench 4 2 2017-03-27 20:11:08.388
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
@@ -7251,3 +7252,13 @@ java.lang.ArrayIndexOutOfBoundsException: 9
 	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:644)
 	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:377)
 	at java.lang.Thread.run(Thread.java:745)
+=======
+!ENTRY org.eclipse.jface.text 2 0 2017-03-27 19:53:56.062
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-27 19:53:56.112
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.server.core 4 0 2017-03-27 20:05:49.332
+!MESSAGE Server Tomcat v8.5 Server at localhost (2) failed to start.
+>>>>>>> louis-come
