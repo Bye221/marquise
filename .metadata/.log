@@ -7176,3 +7176,78 @@ java.io.FileNotFoundException: /Users/louiscauvray/Documents/workspace-marquise/
 	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263)
 	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2017-03-27 20:11:08.388
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 241
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:927)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:738)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readDocumentName(DiskIndex.java:783)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResult(DiskIndex.java:153)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:207)
+	at org.eclipse.jdt.internal.core.index.Index.query(Index.java:140)
+	at org.eclipse.jdt.internal.core.search.matching.TypeDeclarationPattern.queryIn(TypeDeclarationPattern.java:310)
+	at org.eclipse.jdt.core.search.SearchPattern.findIndexMatches(SearchPattern.java:2333)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.findIndexMatches(MatchLocator.java:280)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.search(PatternSearchJob.java:104)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:65)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:265)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1816)
+	at org.eclipse.jdt.core.search.SearchEngine.searchAllTypeNames(SearchEngine.java:1030)
+	at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlaysWithSearchEngine(InterfaceIndicatorLabelDecorator.java:182)
+	at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlays(InterfaceIndicatorLabelDecorator.java:145)
+	at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.decorate(InterfaceIndicatorLabelDecorator.java:128)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:260)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:100)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:383)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2017-03-27 20:11:08.402
+!MESSAGE Exception in Decorator. The 'Java Type Indicator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2017-03-27 20:11:08.402
+!MESSAGE 241
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 241
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:927)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:738)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readDocumentName(DiskIndex.java:783)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResult(DiskIndex.java:153)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:207)
+	at org.eclipse.jdt.internal.core.index.Index.query(Index.java:140)
+	at org.eclipse.jdt.internal.core.search.matching.TypeDeclarationPattern.queryIn(TypeDeclarationPattern.java:310)
+	at org.eclipse.jdt.core.search.SearchPattern.findIndexMatches(SearchPattern.java:2333)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.findIndexMatches(MatchLocator.java:280)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.search(PatternSearchJob.java:104)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:65)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:265)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1816)
+	at org.eclipse.jdt.core.search.SearchEngine.searchAllTypeNames(SearchEngine.java:1030)
+	at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlaysWithSearchEngine(InterfaceIndicatorLabelDecorator.java:182)
+	at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlays(InterfaceIndicatorLabelDecorator.java:145)
+	at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.decorate(InterfaceIndicatorLabelDecorator.java:128)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:260)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:100)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:383)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-03-27 20:11:13.967
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at org.eclipse.jdt.internal.core.index.DiskIndex.computeDocumentNames(DiskIndex.java:339)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:517)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:197)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:905)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:947)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:644)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:377)
+	at java.lang.Thread.run(Thread.java:745)
