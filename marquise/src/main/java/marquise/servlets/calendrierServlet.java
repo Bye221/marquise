@@ -1,41 +1,44 @@
 package marquise.servlets;
 
 import java.io.IOException;
+import java.util.Set;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class calendrierServlet
- */
-@WebServlet("/calendrierServlet")
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.WebContext;
+import org.thymeleaf.templatemode.TemplateMode;
+import org.thymeleaf.templateresolver.ITemplateResolver;
+import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
+
+@WebServlet("/calendrier")
 public class calendrierServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public calendrierServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+		templateResolver.setTemplateMode(TemplateMode.HTML);
+		templateResolver.setPrefix("/WEB-INF/templates");
+		templateResolver.setSuffix(".html");
+		
+		
+		TemplateEngine templateEngine = new TemplateEngine();
+		templateEngine.setTemplateResolver(templateResolver);
+		
+		WebContext context = new WebContext(req, resp, req.getServletContext());
+		
+		templateEngine.process("/users/calendrier", context, resp.getWriter());
+		
 	}
+ 
+	
+	
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
 
 }
