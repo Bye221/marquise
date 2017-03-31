@@ -3,9 +3,10 @@
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="org.thymeleaf.templateresolver.ServletContextTemplateResolver"/>
 <fullyQualifiedTypeName name="org.thymeleaf.templatemode.TemplateMode"/>
 <fullyQualifiedTypeName name="org.thymeleaf.TemplateEngine"/>
 <fullyQualifiedTypeName name="org.thymeleaf.context.WebContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 </qualifiedTypeNameHistroy>
