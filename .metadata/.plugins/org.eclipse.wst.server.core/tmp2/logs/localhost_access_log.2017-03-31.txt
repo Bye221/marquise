@@ -1,0 +1,8 @@
+127.0.0.1 - - [31/Mar/2017:08:51:50 +0200] "GET / HTTP/1.1" 404 1005
+127.0.0.1 - - [31/Mar/2017:08:52:19 +0200] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:08:52:21 +0200] "GET /marquise/home HTTP/1.1" 200 3376
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:08:52:21 +0200] "GET /marquise/css/page/index.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:08:52:21 +0200] "GET /marquise/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:08:52:21 +0200] "GET /marquise/img/city_woman.jpg HTTP/1.1" 200 9364915
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:08:52:21 +0200] "GET /marquise/img/piste.jpeg HTTP/1.1" 200 10988598
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:08:52:21 +0200] "GET /marquise/img/competition_start.jpg HTTP/1.1" 200 1487740

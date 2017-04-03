@@ -1,0 +1,7 @@
+package marquise.servlets;
+
+import javax.servlet.http.HttpServlet;
+
+public class staffServlet extends HttpServlet {
+
+}
